@@ -46,7 +46,7 @@ def predict():
         
     return render_template('index.html', prediction_text='Regression Model  has predicted the price of home based on various parameters is {}'.format(prediction))
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     app.run(debug = True)
 
 
